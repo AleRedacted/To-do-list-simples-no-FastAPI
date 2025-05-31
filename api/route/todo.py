@@ -22,6 +22,7 @@ async def todo_atualizar (id:int, body: PutTodo):
         raise HTTPException(status_code = ()
     return "Ainda não há tarefas"    
 
+#ainda trabalhando aqui
 @todo_router.delete("/{id}")
-def deletar_tarefa(id:int):
+async def deletar_tarefa(id:int):
     return "Ainda não há tarefas"
